@@ -1,0 +1,43 @@
+.header {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.photo {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.photo > h3 {
+    text-align: center;
+    color: rgb(16, 11, 78);
+    border-bottom: 2px solid #333;
+    padding-bottom: 4px;
+}
+#search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
