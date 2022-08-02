@@ -10,7 +10,6 @@ searchInput.addEventListener("keyup", (e) => {
     writeToScreen(filteredPhotos)
 })
 
-
 const writeToScreen = (data = []) => {
     const photoContainer = document.querySelector('.photos');
     let elements = '';
